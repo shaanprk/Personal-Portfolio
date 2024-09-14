@@ -15,9 +15,13 @@
             <button id="resume-button"
                 class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Click Here To See
                 Resume</button>
-            <div id="pdf-container" class="my-4">
-                <object type="application/pdf" data="@/assets/Resume.pdf" width="600" height="700"></object>
-            </div>
+            <!-- <div id="pdf-container" class="my-4"> -->
+                <!-- <object type="application/pdf" data="../assets/Resume.pdf" width="250" height="200">
+                    alt : <a href="../assets/Resume.pdf">test.pdf</a>
+                </object> -->
+                <!-- <iframe src="../assets/Resume.pdf" width="600" height="400"></iframe> -->
+            <!-- </div> -->
+            <iframe src="../assets/"></iframe>
         </div>
         <div class="spotify-data my-8">
             <h3 class="text-2xl mb-2">What Am I Listening To?</h3>
@@ -30,3 +34,7 @@
         </router-link>
     </div>
 </template>
+
+<script>
+
+</script>

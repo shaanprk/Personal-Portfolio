@@ -1,4 +1,5 @@
 <template>
+    <!-- <PageHeader /> -->
     <div class="content">
         <h1 class="text-4xl font-bold my-4">Home Page</h1>
         <div class="intro">
@@ -16,11 +17,16 @@
 </template>
 
 <script>
+// import PageHeader from '@/components/PageHeader.vue';
+
 export default {
     data() {
         return {
             greeting: 'This is a test',
         };
     },
+    // components: {
+    //     PageHeader,
+    // }
 };
 </script>
