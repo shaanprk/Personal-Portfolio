@@ -1,14 +1,24 @@
 <template>
     <header class="bg-gray-800 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <router-link to="/" class="navbar-logo"><img src="../assets/Cropped_Image.png"/></router-link>
+            <router-link to="/"><img src="../assets/Cropped_Image.png" class="navbar-logo"/></router-link>
+
+            <button @click="toggleButton = !toggleButton">
+                <p :class="toggleButton ? 'hidden' : ''">hehe</p>
+                <p :class="toggleButton ? '' : 'hidden'">haha</p>
+            </button>
+
+
+
+
+
+
             <nav class="navbar">
-                <ul class="flex space-x-4 text-white">
-                    <li><router-link to="/" class="hover:text-gray-400">Home</router-link></li>
-                    <li><router-link to="/about">About</router-link></li>
-                    <li><router-link to="/projects">Projects</router-link></li>
-                    <li><router-link to="/contact">Contact</router-link></li>
-                    <li></li>
+                <ul class="flex space-x-4 text-white w-full justify-between">
+                    <li class="navbar-links"><router-link to="/">Home</router-link></li>
+                    <li class="navbar-links"><router-link to="/about">About</router-link></li>
+                    <li class="navbar-links"><router-link to="/projects">Projects</router-link></li>
+                    <li class="navbar-links"><router-link to="/contact">Contact</router-link></li>
                 </ul>
             </nav>
         </div>
@@ -17,7 +27,12 @@
 
 <script>
     export default {
-        name: "NavbarComponent"
+        name: "NavbarComponent",
+        data() {
+            return {
+                toggleButton: false
+            }
+        }
     };
 </script>
 
@@ -26,7 +41,7 @@
         width: 100px;
         border-radius: 100%;
     }
-    li {
-        outline: solid black;
+    .navbar-links {
+        @apply hover:text-gray-400 flex-grow text-center outline;
     }
 </style>
