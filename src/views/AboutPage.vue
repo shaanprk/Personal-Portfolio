@@ -29,9 +29,11 @@
             <p>Insert Spotify API Data Here</p>
             <p>Updated Every 30 Days</p>
         </div>
-        <h3 class="text-2xl my-4">Let's Connect!</h3>
-        <router-link to="/contact">
-            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Contact</button>
+        <h3 class="text-2xl my-4">Check out what I've been working on!</h3>
+        <router-link to="/projects">
+            <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+                Projects
+            </button>
         </router-link>
     </div>
 </template>

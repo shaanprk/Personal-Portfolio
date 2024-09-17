@@ -4,9 +4,11 @@
         <div class="projects">
             <p>Insert project details here</p>
         </div>
-        <router-link to="/about">
-            <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-8">About
-                Me</button>
+        <h3 class="text-2xl my-4">Let's connect!</h3>
+        <router-link to="/contact">
+            <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-8">
+                Contact
+            </button>
         </router-link>
     </div>
 </template>

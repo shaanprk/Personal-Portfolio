@@ -1,7 +1,12 @@
 <template>
     <header class="bg-gray-800 p-4">
-        <div class="flex items-center m-1 justify-between">
+        <div class="container flex items-center m-1">
             <router-link to="/"><img src="../assets/Cropped_Image.png" class="navbar-logo"/></router-link>
+
+            <button @click="toggleButton = !toggleButton" class="hover:tracking-wider mx-8 text-2xl text-white">
+                <p :class="toggleButton ? 'hidden' : ''">Menu</p>
+                <p :class="toggleButton ? '' : 'hidden'">Close</p>
+            </button>
 
             <nav class="navbar">
                 <ul class="flex space-x-4 text-white w-full justify-between">
