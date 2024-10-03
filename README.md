@@ -16,7 +16,7 @@
          alt="Tailwind CSS Badge">
   </a>
   <a href="https://vercel.com/home">
-    <img src="https://img.shields.io/badge/Vercel-NA-_?logo=vercel&labelColor=%20%2334485f&color=%23000101"
+    <img src="https://img.shields.io/badge/Vercel-Current-_?logo=vercel&labelColor=%20%2334485f&color=%23000101"
          alt="Vercel Badge">
   </a>
 </p>
