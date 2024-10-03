@@ -11,4 +11,8 @@
     <img src="https://img.shields.io/badge/Vue.js-v3.5.10-_?logo=vuedotjs&labelColor=%20%2334485f&color=%2341b982"
          alt="Vue.js Badge">
   </a>
+  <a href="https://tailwindcss.com/">
+    <img src="https://img.shields.io/badge/Tailwind%20CSS-v3.4.13-_?logo=tailwindcss&labelColor=%20%2334485f&color=%2338bcf9"
+         alt="Tailwind CSS Badge">
+  </a>
 </p>
